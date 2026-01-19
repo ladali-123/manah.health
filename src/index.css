@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #ffffff;
+  --color-card-background: #f9fafb;
+  --color-star: #fbbf24;
+  --color-badge: #d1d5db;
+  --color-text-primary: #fff;
+  --color-text-secondary: #43464c;
+  --color-heading: #1f2937;
+  --color-checkmark: #10b981;
+  --color-button-primary: #035b99;
+  --color-button-primary-hover: #363636;
+  --color-button-text: #ffffff;
+  --color-heading: #000000;
+  --color-card-background: #f9f9f9;
+  --color-card-text: #333;
+  --color-button-background: #9b9a84;
+  --color-button-text: #fff;
+  --color-footer-background: #575652;
+}
+
+.img1 {
+  --s: 250px; /* the size of the image */
+  --b: 8px; /* the border thickness*/
+  --g: 14px; /* the gap */
+  --c: #fff; /* the color */
+
+  width: var(--s);
+  aspect-ratio: 1;
+  outline: calc(var(--s) / 2) solid rgba(0, 0, 0, 0.4);
+  outline-offset: calc(var(--s) / -2);
+  cursor: pointer;
+  transition: 2s;
+}
+.img1:hover {
+  outline: var(--b) solid var(--c);
+  outline-offset: var(--g);
+}
+
+img + img {
+  border-radius: 50%;
+}
+
+
