@@ -28,6 +28,7 @@ import img23 from "../assets/Blogs/StageFear.webp";
 import img24 from "../assets/Blogs/ChildrenMentalHealth.webp";
 import img25 from "../assets/Blogs/PsychotropicMedicines.webp";
 import img26 from "../assets/Blogs/MentalHealthBlog.webp";
+import gameadd from "../assets/gameadd.jpg"; // अपना image path डालें
 
 export default function BlogsPage() {
   const [activePage, setActivePage] = useState(1);
@@ -99,6 +100,14 @@ export default function BlogsPage() {
   };
 
   const blogs = [
+    {
+      title: "Online Gaming Addiction: जब मोबाइल गेम बच्चों की ज़िंदगी पर भारी पड़ने लगें",
+      description:
+        "Online gaming addiction के प्रभाव, warning signs, और parents के लिए effective steps।",
+      image: gameadd,
+      link: "/blog/online-gaming-addiction-2026",
+      tags: ["gaming", "mental health", "children"],
+    },
     {
       title:
         "From Anxiety to Calm: How Manah’s Holistic Approach Helps Patients Heal with Love and Science",

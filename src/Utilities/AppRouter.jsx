@@ -42,6 +42,8 @@ import PsychotropicMedicinesExplainedBlog from "../Pages/Blogs/PsychotropicMedic
 import MentalHealthSaferBlog from "../Pages/Blogs/MentalHealthManagementBlog";
 import AnxietyToCalmBlog from "../Pages/Blogs/AnxietyToCalmBlog";
 import ChildTeenAdultCareBlog from "../Pages/Blogs/ChildTeenAdultCareBlog";
+import OCDBlog from "../Pages/Blogs/ocd";
+import OnlineGamingAddictionBlog from "../Pages/Blogs/Gameadd";
 import MeetTeam from "../Components/MeetTeam";
 
 function AppRouter() {
@@ -194,6 +196,14 @@ function AppRouter() {
           <Route
             path="/blog/care-for-all-ages-manah"
             element={<ChildTeenAdultCareBlog />}
+          />
+          <Route
+            path="/blog/ocd-treatment-patna"
+            element={<OCDBlog />}
+          />
+          <Route
+            path="/blog/online-gaming-addiction-2026"
+            element={<OnlineGamingAddictionBlog />}
           />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>

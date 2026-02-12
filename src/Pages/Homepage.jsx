@@ -14,6 +14,8 @@ import BlogSection from "../Components/BlogSection";
 import img3 from "../assets/Blogs/SadWomanOnChair.webp";
 import img4 from "../assets/Blogs/ManHeadTree.webp";
 import img5 from "../assets/Blogs/InsideGlass.webp";
+import img1 from "../assets/Blogs/ocdimg.jpg";
+import gameadd from "../assets/gameadd.jpg";
 import MapSection from "../Components/MapSection";
 
 export default function Homepage() {
@@ -22,8 +24,21 @@ export default function Homepage() {
   }, []);
 
   const blogs = [
-    {
-      title: "What are Anxiety Disorders? Let’s Discover",
+    {      title: "Online Gaming Addiction: जब मोबाइल गेम बच्चों की ज़िंदगी पर भारी पड़ने लगें",
+      description:
+        "Online gaming addiction के प्रभाव, warning signs, और parents के लिए effective steps।",
+      image: gameadd,
+      link: "/blog/online-gaming-addiction-2026",
+      tags: ["gaming", "mental health", "children"],
+    },
+    {      title: "Obsessive Compulsive Disorder (OCD): Symptoms, Causes, and Effective Treatment in Patna",
+      description:
+        "Learn about OCD symptoms, causes, and professional treatment options in Patna, including guidance from Dr. Archana Singh at Manah Institute.",
+      image: img1,
+      link: "/blog/ocd-treatment-patna",
+      tags: ["OCD", "mental health", "treatment", "Patna"],
+    },
+    {      title: "What are Anxiety Disorders? Let’s Discover",
       description:
         "An overview of anxiety disorders, their symptoms, and available treatment options.",
       image: img3,
@@ -37,14 +52,6 @@ export default function Homepage() {
       image: img4,
       link: "/blog/mental-illness-2024",
       tags: ["mental health", "treatment", "mental illness"],
-    },
-    {
-      title: "Coping with Social Isolation and Loneliness – What to know?",
-      description:
-        "Learn strategies for managing and overcoming social isolation and loneliness.",
-      image: img5,
-      link: "/blog/social-isolation-loneliness",
-      tags: ["social isolation", "loneliness", "mental health"],
     },
   ];
 
