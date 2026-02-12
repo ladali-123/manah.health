@@ -24,8 +24,8 @@ export default function OnlineGamingAddictionBlog() {
         लेकिन जब खेल, खेल न रहकर addiction बन जाए, तब इसके परिणाम बेहद खतरनाक हो सकते हैं।
       </p>
      <p>
- <a href="/" style="color: #007bff;">
-  <strong>Manah Institute of Psychiatry & Behavior Sciences, Patna</strong>
+ <a href="/" style="color: #007bff !important; display: inline; text-decoration: none; font-weight: bold;">
+  Manah Institute of Psychiatry & Behavior Sciences, Patna
 </a>में हम रोज़ ऐसे माता-पिता से
   मिलते हैं जो कहते हैं:<br/>
   "बच्चा बात नहीं करता",<br/>
@@ -38,6 +38,10 @@ export default function OnlineGamingAddictionBlog() {
          parents को जागरूक करने के लिए</br>
          gaming addiction को समझाने के लिए</br>
          और समय रहते mental health help लेने के लिए
+      </p>
+
+      <p style="margin-top: 10px; font-size: 18px;">
+        <strong>📖 Read Also:</strong> <a href="/blog/ocd-treatment-patna" style="color: #007bff !important; text-decoration: none;">OCD (Obsessive Compulsive Disorder) - लक्षण, कारण और उपचार</a>
       </p>
     `,
 
@@ -250,7 +254,7 @@ export default function OnlineGamingAddictionBlog() {
   title: "Manah Institute of Psychiatry & Behavior Sciences कैसे मदद करता है?",
   content: [
     `<div style="font-size:18px; line-height:1.8;">
-      <a href="/" style="color: #007bff;"><strong>Manah Institute of Psychiatry & Behavior Sciences, Patna</strong></a>
+      <a href="/" style="color: #007bff !important; display: inline; text-decoration: none; font-weight: bold;">Manah Institute of Psychiatry & Behavior Sciences, Patna</a>
       में हम बच्चों और किशोरों के लिए holistic mental health care प्रदान करते हैं।
       <br/><br/>
 
@@ -295,14 +299,16 @@ export default function OnlineGamingAddictionBlog() {
       सही समय पर intervention ज़िंदगी बदल सकता है।
     </p>
 
-    <div style="background-color:#f5f5f5; padding:25px; border-radius:10px; margin-top:25px;">
-      <h4 style="font-size:20px; margin-bottom:10px;">
-        <strong>Manah Institute of Psychiatry & Behavior Sciences</strong>
-      </h4>
+    <a href="/contact" style="text-decoration: none; color: inherit;">
+      <div style="background-color:#f5f5f5; padding:25px; border-radius:10px; margin-top:25px; cursor: pointer; transition: all 0.3s ease;" onmouseover="this.style.backgroundColor='#e8f0ff'" onmouseout="this.style.backgroundColor='#f5f5f5'">
+        <h4 style="font-size:20px; margin-bottom:10px; color: #007bff;">
+          <strong>Manah Institute of Psychiatry & Behavior Sciences</strong>
+        </h4>
 
-      <p><strong>Contact:</strong> 7543976796 | 7759945555</p>
-      <p><strong>Address:</strong> Ashiana Nagar Main Road, Patna</p>
-    </div>
+        <p style="color: #007bff;"><strong>Contact:</strong> 7543976796 | 7759945555</p>
+        <p style="color: #007bff;"><strong>Address:</strong> Ashiana Nagar Main Road, Patna</p>
+      </div>
+    </a>
 
   </div>
     `,
