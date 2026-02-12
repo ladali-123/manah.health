@@ -12,8 +12,6 @@ import Testimonials from "../Components/TestimonialsSection";
 import { useEffect } from "react";
 import BlogSection from "../Components/BlogSection";
 import img3 from "../assets/Blogs/SadWomanOnChair.webp";
-import img4 from "../assets/Blogs/ManHeadTree.webp";
-import img5 from "../assets/Blogs/InsideGlass.webp";
 import img1 from "../assets/Blogs/ocdimg.jpg";
 import gameadd from "../assets/gameadd.jpg";
 import MapSection from "../Components/MapSection";
@@ -44,14 +42,6 @@ export default function Homepage() {
       image: img3,
       link: "/blog/anxiety-disorders-2024",
       tags: ["anxiety", "mental health", "treatment"],
-    },
-    {
-      title: "What is Mental Illness – Important Types & Treatments",
-      description:
-        "Explore the different types of mental illness and the treatments available for each.",
-      image: img4,
-      link: "/blog/mental-illness-2024",
-      tags: ["mental health", "treatment", "mental illness"],
     },
   ];
 
