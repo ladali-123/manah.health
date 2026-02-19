@@ -202,7 +202,7 @@ function AppRouter() {
             element={<OCDBlog />}
           />
           <Route
-            path="/blog/online-gaming-addiction-2026"
+            path="/blog/online-gaming-addiction-in-children-hindi"
             element={<OnlineGamingAddictionBlog />}
           />
           <Route path="*" element={<NotFoundPage />} />

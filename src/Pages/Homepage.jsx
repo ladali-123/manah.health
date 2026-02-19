@@ -26,7 +26,7 @@ export default function Homepage() {
       description:
         "Online gaming addiction के प्रभाव, warning signs, और parents के लिए effective steps।",
       image: gameadd,
-      link: "/blog/online-gaming-addiction-2026",
+      link: "/blog/online-gaming-addiction-in-children-hindi",
       tags: ["gaming", "mental health", "children"],
     },
     {      title: "Obsessive Compulsive Disorder (OCD): Symptoms, Causes, and Effective Treatment in Patna",
