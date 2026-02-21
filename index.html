@@ -85,13 +85,11 @@
         "latitude": 25.6189371,
         "longitude": 85.0791711
       },
-      // NEW: AggregateRating based on your 5000+ reviews in the About section
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "5.0",
         "reviewCount": "5000"
       },
-      // NEW: Contact Point for clear communication channels
       "contactPoint": [
         {
           "@type": "ContactPoint",
@@ -112,35 +110,28 @@
         "https://www.facebook.com/people/Manah-Institute-of-Psychiatry-and-Behavior-Sciences/61571910815242/",
         "https://www.instagram.com/manahpsychiatrycare",
         "https://www.linkedin.com/company/manah-institute-of-psychiatry-and-behavior-sciences/about/",
-        "https://g.co/kgs/D3YhYx7" // NEW: Added Google Business Profile link if available
+        "https://g.co/kgs/D3YhYx7"
       ],
-      // NEW: Explicitly define Dr. Archana Singh as an employee/healthcare provider
       "employee": {
-        "@type": "Physician", // More specific than just Person for a doctor
+        "@type": "Physician",
         "name": "Dr. Archana Singh",
         "jobTitle": "Lead Psychiatrist",
-        "url": "https://www.manah.health/about", // Link to her specific profile page if exists
+        "url": "https://www.manah.health/about",
         "medicalSpecialty": [
-            {"@type": "MedicalSpecialty", "name": "Psychiatry"},
-            {"@type": "MedicalSpecialty", "name": "ChildAndAdolescentPsychiatry"},
-            {"@type": "MedicalSpecialty", "name": "Neuropsychiatry"}
+            "Psychiatry",
+            "Child and Adolescent Psychiatry",
+            "Neuropsychiatry"
         ],
         "image": "https://www.manah.health/DrArchana.png",
-        "alumniOf": "CIP Kanke, Ranchi", // Example: Her medical school/institution
-        "memberOf": "Indian Psychiatric Society", // Example: Professional body
-        "sameAs": [
-          // Add Dr. Archana Singh's personal professional social profiles if available
-          // "https://www.linkedin.com/in/dr-archana-singh",
-          // "https://www.twitter.com/dr_archana_singh"
-        ]
+        "alumniOf": "CIP Kanke, Ranchi",
+        "memberOf": "Indian Psychiatric Society",
+        "sameAs": []
       },
-      // REFINED: Medical specialties (standard types)
       "medicalSpecialty": [
-        {"@type": "MedicalSpecialty", "name": "Psychiatry"},
-        {"@type": "MedicalSpecialty", "name": "ChildAndAdolescentPsychiatry"},
-        {"@type": "MedicalSpecialty", "name": "Neuropsychiatry"}
+        "Psychiatry",
+        "Child and Adolescent Psychiatry",
+        "Neuropsychiatry"
       ],
-      // NEW: More specific conditions treated, if applicable
       "conditionsTreated": [
         {"@type": "MedicalCondition", "name": "Anxiety Disorder"},
         {"@type": "MedicalCondition", "name": "Depression"},
@@ -159,7 +150,7 @@
         {"@type": "Offer","itemOffered": {"@type": "Service","name": "Neuropsychiatric Care"}},
         {"@type": "Offer","itemOffered": {"@type": "Service","name": "Child & Adolescent Psychiatry"}},
         {"@type": "Offer","itemOffered": {"@type": "Service","name": "Telepsychiatry"}},
-        {"@type": "Offer","itemOffered": {"@type": "Service","name": "Holistic Healing Programs"}} // NEW: Reflects holistic approach
+        {"@type": "Offer","itemOffered": {"@type": "Service","name": "Holistic Healing Programs"}}
       ],
       "openingHoursSpecification": [
         {
@@ -178,11 +169,10 @@
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": "Sunday",
-           "opens": "00:00", // "00:00" for closed or "byAppointment" if applicable
+           "opens": "00:00",
            "closes": "00:00"
         }
       ],
-      // NEW: areaServed can be useful for broader reach
       "areaServed": [
         {
           "@type": "State",
