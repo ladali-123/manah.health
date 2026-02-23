@@ -44,6 +44,7 @@ import AnxietyToCalmBlog from "../Pages/Blogs/AnxietyToCalmBlog";
 import ChildTeenAdultCareBlog from "../Pages/Blogs/ChildTeenAdultCareBlog";
 import OCDBlog from "../Pages/Blogs/ocd";
 import OnlineGamingAddictionBlog from "../Pages/Blogs/Gameadd";
+import BestFemalePsychiatristPatna from "../Pages/Blogs/Female";
 import MeetTeam from "../Components/MeetTeam";
 
 function AppRouter() {
@@ -204,6 +205,10 @@ function AppRouter() {
           <Route
             path="/blog/online-gaming-addiction-in-children-hindi"
             element={<OnlineGamingAddictionBlog />}
+          />
+          <Route
+            path="/blog/best-female-psychiatrist-in-patna"
+            element={<BestFemalePsychiatristPatna />}
           />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>

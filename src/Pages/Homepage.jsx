@@ -11,9 +11,9 @@ import AppointmentForm from "../Components/ContactForm";
 import Testimonials from "../Components/TestimonialsSection";
 import { useEffect } from "react";
 import BlogSection from "../Components/BlogSection";
-import img3 from "../assets/Blogs/SadWomanOnChair.webp";
 import img1 from "../assets/Blogs/ocdimg.jpg";
 import gameadd from "../assets/gameadd.jpg";
+import female from "../assets/Blogs/female.png";
 import MapSection from "../Components/MapSection";
 
 export default function Homepage() {
@@ -22,26 +22,29 @@ export default function Homepage() {
   }, []);
 
   const blogs = [
-    {      title: "Online Gaming Addiction: जब मोबाइल गेम बच्चों की ज़िंदगी पर भारी पड़ने लगें",
+    {
+      title: "Best Female Psychiatrist in Patna | Dr Archana Singh – Manah Institute of Psychiatry",
+      description:
+        "Looking for the best female psychiatrist in Patna? Consult Dr Archana Singh (MBBS, MD Psychiatry, DPM-CIP Kanke Ranchi) at Manah Institute of Psychiatry & Behavioral Sciences for expert mental health care.",
+      image: female,
+      link: "/blog/best-female-psychiatrist-in-patna",
+      tags: ["Best Female Psychiatrist in Patna", "Dr Archana Singh", "Patna", "Mental Health"],
+    },
+    {
+      title: "Online Gaming Addiction: जब मोबाइल गेम बच्चों की ज़िंदगी पर भारी पड़ने लगें",
       description:
         "Online gaming addiction के प्रभाव, warning signs, और parents के लिए effective steps।",
       image: gameadd,
       link: "/blog/online-gaming-addiction-in-children-hindi",
       tags: ["gaming", "mental health", "children"],
     },
-    {      title: "Obsessive Compulsive Disorder (OCD): Symptoms, Causes, and Effective Treatment in Patna",
+    {
+      title: "Obsessive Compulsive Disorder (OCD): Symptoms, Causes, and Effective Treatment in Patna",
       description:
         "Learn about OCD symptoms, causes, and professional treatment options in Patna, including guidance from Dr. Archana Singh at Manah Institute.",
       image: img1,
       link: "/blog/ocd-treatment-patna",
       tags: ["OCD", "mental health", "treatment", "Patna"],
-    },
-    {      title: "What are Anxiety Disorders? Let’s Discover",
-      description:
-        "An overview of anxiety disorders, their symptoms, and available treatment options.",
-      image: img3,
-      link: "/blog/anxiety-disorders-2024",
-      tags: ["anxiety", "mental health", "treatment"],
     },
   ];
 

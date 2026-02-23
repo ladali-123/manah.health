@@ -29,6 +29,7 @@ import img24 from "../assets/Blogs/ChildrenMentalHealth.webp";
 import img25 from "../assets/Blogs/PsychotropicMedicines.webp";
 import img26 from "../assets/Blogs/MentalHealthBlog.webp";
 import gameadd from "../assets/gameadd.jpg"; // अपना image path डालें
+import female from "../assets/Blogs/female.png";
 
 export default function BlogsPage() {
   const [activePage, setActivePage] = useState(1);
@@ -99,7 +100,15 @@ export default function BlogsPage() {
     ],
   };
 
-  const blogs = [
+const blogs = [
+    {
+      title: "Best Female Psychiatrist in Patna | Dr Archana Singh – Manah Institute of Psychiatry",
+      description:
+        "Looking for the best female psychiatrist in Patna? Consult Dr Archana Singh (MBBS, MD Psychiatry, DPM-CIP Kanke Ranchi) at Manah Institute of Psychiatry & Behavioral Sciences for expert mental health care.",
+      image: female,
+      link: "/blog/best-female-psychiatrist-in-patna",
+      tags: ["Best Female Psychiatrist in Patna", "Dr Archana Singh", "Patna", "Mental Health"],
+    },
     {
       title: "Online Gaming Addiction: जब मोबाइल गेम बच्चों की ज़िंदगी पर भारी पड़ने लगें",
       description:
