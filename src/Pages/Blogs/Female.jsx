@@ -24,7 +24,11 @@ export default function BestFemalePsychiatristPatna() {
         With years of experience and a patient-centered approach, Dr Archana Singh has helped thousands of individuals overcome mental health challenges and lead healthier, happier lives.
       </p>
 
-      <h2>About Dr Archana Singh – Trusted Female Psychiatrist in Patna</h2>
+      <p style="margin-top: 20px; font-size: 1.125rem;">
+        <strong>Read Also:</strong> <a href="/blog/online-gaming-addiction-in-children-hindi" style="color: #3b82f6; text-decoration: underline; font-weight: 500;">Online Gaming Addiction in Children (Hindi)</a>
+      </p>
+
+      <h2><a href="/services/psychiatric-consultation" style="color: #3b82f6; text-decoration: underline;">About Dr Archana Singh – Trusted Female Psychiatrist in Patna</a></h2>
 
       <p>
         Dr Archana Singh is a highly qualified and experienced mental health specialist known for her compassionate approach and accurate diagnosis.
@@ -243,6 +247,19 @@ export default function BestFemalePsychiatristPatna() {
       <p>
         📍 Manah Institute of Psychiatry & Behavioral Sciences<br/>
         📞 7543976796 | 7759945555
+      </p>
+
+      <p>
+        <a 
+          href="https://book-appointment.healthplix.com/dr-dr-archana-singh-psychiatry-ashiana-nagar--patna" 
+          target="_blank" 
+          rel="noopener noreferrer"
+         style="color: #60a5fa; text-decoration: none; font-weight: 600; font-size: 1.125rem;"
+onmouseover="this.style.textDecoration='underline'"
+onmouseout="this.style.textDecoration='none'"
+        >
+          Book Now
+        </a>
       </p>
 
       <p>Early consultation ensures faster recovery.</p>
