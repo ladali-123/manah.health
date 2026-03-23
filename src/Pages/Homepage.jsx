@@ -11,7 +11,7 @@ import AppointmentForm from "../Components/ContactForm";
 import Testimonials from "../Components/TestimonialsSection";
 import { useEffect } from "react";
 import BlogSection from "../Components/BlogSection";
-import img1 from "../assets/Blogs/ocdimg.jpg";
+import bestImg from "../assets/best.png";
 import gameadd from "../assets/gameadd.jpg";
 import female from "../assets/Blogs/female.png";
 import MapSection from "../Components/MapSection";
@@ -22,6 +22,13 @@ export default function Homepage() {
   }, []);
 
   const blogs = [
+    {
+      title: "Best Psychiatrist in Patna for Depression & Anxiety (2026 Guide)",
+      description: "Looking for the best psychiatrist in Patna? Discover top experts for depression & anxiety treatment, costs, symptoms, and treatment options in this 2026 guide.",
+      image: bestImg,
+      link: "/blog/best-psychiatrist-patna-depression-anxiety",
+      tags: ["Best Psychiatrist in Patna", "Depression Treatment", "Anxiety Treatment", "Mental Health", "Patna"],
+    },
     {
       title: "Best Female Psychiatrist in Patna | Dr Archana Singh – Manah Institute of Psychiatry",
       description:
@@ -37,14 +44,6 @@ export default function Homepage() {
       image: gameadd,
       link: "/blog/online-gaming-addiction-in-children-hindi",
       tags: ["gaming", "mental health", "children"],
-    },
-    {
-      title: "Obsessive Compulsive Disorder (OCD): Symptoms, Causes, and Effective Treatment in Patna",
-      description:
-        "Learn about OCD symptoms, causes, and professional treatment options in Patna, including guidance from Dr. Archana Singh at Manah Institute.",
-      image: img1,
-      link: "/blog/ocd-treatment-patna",
-      tags: ["OCD", "mental health", "treatment", "Patna"],
     },
   ];
 

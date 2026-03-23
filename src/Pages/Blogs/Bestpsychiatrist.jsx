@@ -1,5 +1,5 @@
 import BlogPage from "../../Components/BlogPageComponent";
-import female from "../../assets/Blogs/best.png";
+import bestImg from "../../assets/best.png";
 
 export default function BestPsychiatristPatnaDepressionAnxiety() {
   const blogData = {
@@ -7,7 +7,7 @@ export default function BestPsychiatristPatnaDepressionAnxiety() {
     description:
       "Looking for the best psychiatrist in Patna? Discover top experts for depression & anxiety treatment, costs, symptoms, and treatment options in this 2026 guide.",
     date: "2026-03-21",
-    image: female,
+    image: bestImg,
     link: "/blog/best-psychiatrist-patna-depression-anxiety",
     tags: [
       "Best Psychiatrist in Patna",
@@ -18,7 +18,7 @@ export default function BestPsychiatristPatnaDepressionAnxiety() {
     ],
 
     text1: `
-      <h2>🧠 Introduction</h2>
+      <h2>Introduction</h2>
       <p>
         Mental health is no longer something we can ignore. With rising cases of depression and anxiety, more people in Patna are actively searching for the best psychiatrist who can provide the right guidance and treatment.
       </p>
@@ -27,7 +27,19 @@ export default function BestPsychiatristPatnaDepressionAnxiety() {
         If you or your loved ones are struggling, this guide will help you find the best psychiatrist in Patna for depression & anxiety in 2026.
       </p>
 
-      <h2>⚠️ Signs You Should See a Psychiatrist</h2>
+      <p>
+  Read also this blog:
+  <a 
+    href="https://manah.health/blog/best-female-psychiatrist-in-patna"
+    target="_blank"
+    rel="noopener noreferrer"
+    style="color: #2563eb; text-decoration: underline;"
+  >
+    Best Female Psychiatrist in Patna
+  </a>
+</p>
+
+      <h2>Signs You Should See a Psychiatrist</h2>
       <p>Before choosing a doctor, it's important to understand whether you need professional help.</p>
 
       <p><strong>Common symptoms:</strong></p>
@@ -40,9 +52,9 @@ export default function BestPsychiatristPatnaDepressionAnxiety() {
         <li>Sudden mood swings</li>
       </ul>
 
-      <p>👉 If these symptoms last for more than 2 weeks, consulting a psychiatrist is highly recommended.</p>
+      <p>If these symptoms last for more than 2 weeks, consulting a psychiatrist is highly recommended.</p>
 
-      <h2>🏥 Why Choose a Psychiatrist for Depression & Anxiety?</h2>
+      <h2>Why Choose a Psychiatrist for Depression & Anxiety?</h2>
       <p>A psychiatrist is a medical doctor (MBBS + MD) who can:</p>
       <ul>
         <li>Diagnose mental health conditions</li>
@@ -55,10 +67,10 @@ export default function BestPsychiatristPatnaDepressionAnxiety() {
         Unlike general counseling, psychiatric treatment ensures scientific and medical care.
       </p>
 
-      <h2>📍 Best Psychiatrist in Patna (2026)</h2>
+      <h2>Best Psychiatrist in Patna (2026)</h2>
       <p>When searching for the best psychiatrist, you should look for:</p>
 
-      <p><strong>✅ Key factors:</strong></p>
+      <p><strong>Key factors:</strong></p>
       <ul>
         <li>Experience in treating depression & anxiety</li>
         <li>Patient reviews and success stories</li>
@@ -68,10 +80,10 @@ export default function BestPsychiatristPatnaDepressionAnxiety() {
       </ul>
 
       <p>
-        👉 Clinics like Manah Health focus on holistic mental healthcare for all age groups.
+        Clinics like Manah Health focus on holistic mental healthcare for all age groups.
       </p>
 
-      <h2>💊 Treatment Options Available</h2>
+      <h2>Treatment Options Available</h2>
       <p>Treatment depends on the severity of the condition.</p>
 
       <h3>1. Therapy (Counseling)</h3>
@@ -94,10 +106,10 @@ export default function BestPsychiatristPatnaDepressionAnxiety() {
       </ul>
 
       <p>
-        👉 A good psychiatrist will combine all three for best results.
+        A good psychiatrist will combine all three for best results.
       </p>
 
-      <h2>💰 Cost of Psychiatrist in Patna</h2>
+      <h2>Cost of Psychiatrist in Patna</h2>
       <p>The consultation cost in Patna generally ranges from:</p>
       <ul>
         <li>₹500 to ₹2000 per session</li>
@@ -105,10 +117,10 @@ export default function BestPsychiatristPatnaDepressionAnxiety() {
       </ul>
 
       <p>
-        💡 Investing in mental health is the best decision for long-term well-being.
+        Investing in mental health is the best decision for long-term well-being.
       </p>
 
-      <h2>🌐 Online vs Offline Consultation</h2>
+      <h2>Online vs Offline Consultation</h2>
 
       <h3>Online:</h3>
       <ul>
@@ -124,7 +136,7 @@ export default function BestPsychiatristPatnaDepressionAnxiety() {
       </ul>
 
       <p>
-        👉 Many top clinics in Patna offer both options.
+        Many top clinics in Patna offer both options.
       </p>
     `,
 
@@ -136,7 +148,7 @@ export default function BestPsychiatristPatnaDepressionAnxiety() {
       </p>
     `,
 
-    hookTitle: "⚠️ When Should You See a Psychiatrist?",
+    hookTitle: "When Should You See a Psychiatrist?",
     hookText: `
       <p style="font-size: 1.125rem;">
         If you experience persistent sadness, anxiety, sleep issues, or panic attacks for more than two weeks, it is important to seek professional help immediately.
@@ -181,9 +193,24 @@ export default function BestPsychiatristPatnaDepressionAnxiety() {
       </p>
 
       <p style="font-size: 1.125rem;">
-        👉 If you or someone you know is struggling, consider reaching out to a trusted mental health professional today.
+        If you or someone you know is struggling, consider reaching out to a trusted mental health professional today.
       </p>
+
+      <p style="font-size: 1.125rem; line-height: 1.8;">
+  Ready to feel better and take control of your mental health?
+  <a 
+    href="https://manah.health/contact" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    style="color: #2563eb; font-weight: 600; text-decoration: underline;"
+  >
+    Talk to our experts today
+  </a>
+  and get the support you deserve.
+</p>
     `,
+
+    
 
     faqs: [
       {

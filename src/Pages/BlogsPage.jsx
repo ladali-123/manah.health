@@ -30,6 +30,7 @@ import img25 from "../assets/Blogs/PsychotropicMedicines.webp";
 import img26 from "../assets/Blogs/MentalHealthBlog.webp";
 import gameadd from "../assets/gameadd.jpg"; // अपना image path डालें
 import female from "../assets/Blogs/female.png";
+import bestImg from "../assets/best.png";
 
 export default function BlogsPage() {
   const [activePage, setActivePage] = useState(1);
@@ -101,6 +102,13 @@ export default function BlogsPage() {
   };
 
 const blogs = [
+    {
+      title: "Best Psychiatrist in Patna for Depression & Anxiety (2026 Guide)",
+      description: "Looking for the best psychiatrist in Patna? Discover top experts for depression & anxiety treatment, costs, symptoms, and treatment options in this 2026 guide.",
+      image: bestImg,
+      link: "/blog/best-psychiatrist-patna-depression-anxiety",
+      tags: ["Best Psychiatrist in Patna", "Depression Treatment", "Anxiety Treatment", "Mental Health", "Patna"],
+    },
     {
       title: "Best Female Psychiatrist in Patna | Dr Archana Singh – Manah Institute of Psychiatry",
       description:
