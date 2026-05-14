@@ -31,6 +31,8 @@ import img26 from "../assets/Blogs/MentalHealthBlog.webp";
 import gameadd from "../assets/gameadd.jpg"; // अपना image path डालें
 import female from "../assets/Blogs/female.png";
 import bestImg from "../assets/best.png";
+import ocdimg from "../assets/Blogs/ocdimg.jpg";
+import depr from "../assets/depr.png";
 
 export default function BlogsPage() {
   const [activePage, setActivePage] = useState(1);
@@ -103,6 +105,13 @@ export default function BlogsPage() {
 
 const blogs = [
     {
+      title: "Depression is NOT just 'low mood' – Here’s what it actually feels like",
+      description: "What does clinical depression really feel like? Beyond sadness – the physical heaviness, mental fog, and numbness. Learn the truth and how to get help.",
+      image: depr,
+      link: "/blog/depression-not-just-low-mood",
+      tags: ["Depression", "Mental Health", "Symptoms", "Treatment", "Therapy"],
+    },
+    {
       title: "Best Psychiatrist in Patna for Depression & Anxiety (2026 Guide)",
       description: "Looking for the best psychiatrist in Patna? Discover top experts for depression & anxiety treatment, costs, symptoms, and treatment options in this 2026 guide.",
       image: bestImg,
@@ -125,6 +134,16 @@ const blogs = [
       link: "/blog/online-gaming-addiction-in-children-hindi",
       tags: ["gaming", "mental health", "children"],
     },
+
+    {
+      title : "Obsessive Compulsive Disorder (OCD): Symptoms, Causes, and Effective Treatment in Patna",
+      description : "Learn about OCD symptoms, causes, and professional treatment options in Patna, including guidance from Dr. Archana Singh at Manah Institute.",
+      image: ocdimg,
+      link: "/blog/ocd-symptoms-causes-treatment-patna",
+      tags : ["OCD", "mental health", "treatment", "Patna"],
+    },
+
+
     {
       title:
         "From Anxiety to Calm: How Manah’s Holistic Approach Helps Patients Heal with Love and Science",

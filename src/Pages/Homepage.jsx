@@ -14,6 +14,7 @@ import BlogSection from "../Components/BlogSection";
 import bestImg from "../assets/best.png";
 import gameadd from "../assets/gameadd.jpg";
 import female from "../assets/Blogs/female.png";
+import depressionImg from "../assets/depr.png";
 import MapSection from "../Components/MapSection";
 
 export default function Homepage() {
@@ -22,6 +23,13 @@ export default function Homepage() {
   }, []);
 
   const blogs = [
+    {
+      title: "Depression is NOT just 'low mood' – Here’s what it actually feels like",
+      description: "What does clinical depression really feel like? Beyond sadness – the physical heaviness, mental fog, and numbness. Learn the truth and how to get help.",
+      image: depressionImg,
+      link: "/blog/depression-not-just-low-mood",
+      tags: ["Depression", "Mental Health", "Symptoms", "Treatment", "Therapy"],
+    },
     {
       title: "Best Psychiatrist in Patna for Depression & Anxiety (2026 Guide)",
       description: "Looking for the best psychiatrist in Patna? Discover top experts for depression & anxiety treatment, costs, symptoms, and treatment options in this 2026 guide.",
@@ -36,14 +44,6 @@ export default function Homepage() {
       image: female,
       link: "/blog/best-female-psychiatrist-in-patna",
       tags: ["Best Female Psychiatrist in Patna", "Dr Archana Singh", "Patna", "Mental Health"],
-    },
-    {
-      title: "Online Gaming Addiction: जब मोबाइल गेम बच्चों की ज़िंदगी पर भारी पड़ने लगें",
-      description:
-        "Online gaming addiction के प्रभाव, warning signs, और parents के लिए effective steps।",
-      image: gameadd,
-      link: "/blog/online-gaming-addiction-in-children-hindi",
-      tags: ["gaming", "mental health", "children"],
     },
   ];
 
