@@ -47,7 +47,9 @@ import OnlineGamingAddictionBlog from "../Pages/Blogs/Gameadd";
 import BestFemalePsychiatristPatna from "../Pages/Blogs/Female";
 import BestPsychiatristPatnaDepressionAnxiety from "../Pages/Blogs/Bestpsychiatrist";
 import DepressionBlog from "../Pages/Blogs/depression";
+import ExamTenBlog from "../Pages/Blogs/ExamTen";
 import MeetTeam from "../Components/MeetTeam";
+
 
 function AppRouter() {
   const [isLoading, setIsLoading] = useState(false);
@@ -139,6 +141,11 @@ function AppRouter() {
             path="/blog/overcome-exam-stress"
             element={<ExamStressBlog />}
           />
+          <Route
+            path="/blog/exam-cancellations-paper-leaks-student-mental-health"
+            element={<ExamTenBlog />}
+          />
+
           <Route
             path="/blog/face-failures"
             element={<DealingWithFailureBlog />}

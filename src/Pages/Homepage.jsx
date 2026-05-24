@@ -12,10 +12,11 @@ import Testimonials from "../Components/TestimonialsSection";
 import { useEffect } from "react";
 import BlogSection from "../Components/BlogSection";
 import bestImg from "../assets/best.png";
-import gameadd from "../assets/gameadd.jpg";
-import female from "../assets/Blogs/female.png";
+
 import depressionImg from "../assets/depr.png";
 import MapSection from "../Components/MapSection";
+import examten from "../assets/examten.png"; // Add related image in assets
+
 
 export default function Homepage() {
   useEffect(() => {
@@ -23,6 +24,25 @@ export default function Homepage() {
   }, []);
 
   const blogs = [
+
+    {
+      title: "Exam Cancellations, Paper Leaks & Rising Competition: Why Students Are Feeling Mentally Exhausted Today",
+      description: "Competitive exams are becoming more stressful due to paper leaks, cancellations, delays, and rising competition. Learn how exam uncertainty affects students’ mental health, confidence, anxiety, and emotional well-being.",
+      image: examten,
+      link: "/blog/exam-cancellations-paper-leaks-student-mental-health",
+      tags: [
+        "Student Mental Health",
+        "Exam Stress",
+        "Competitive Exams",
+        "Anxiety",
+        "Burnout",
+        "Paper Leak",
+        "Student Depression",
+        "Academic Pressure",
+        "Mental Exhaustion",
+        "Counseling"
+      ]
+    },
     {
       title: "Depression is NOT just 'low mood' – Here’s what it actually feels like",
       description: "What does clinical depression really feel like? Beyond sadness – the physical heaviness, mental fog, and numbness. Learn the truth and how to get help.",
@@ -37,14 +57,7 @@ export default function Homepage() {
       link: "/blog/best-psychiatrist-patna-depression-anxiety",
       tags: ["Best Psychiatrist in Patna", "Depression Treatment", "Anxiety Treatment", "Mental Health", "Patna"],
     },
-    {
-      title: "Best Female Psychiatrist in Patna | Dr Archana Singh – Manah Institute of Psychiatry",
-      description:
-        "Looking for the best female psychiatrist in Patna? Consult Dr Archana Singh (MBBS, MD Psychiatry, DPM-CIP Kanke Ranchi) at Manah Institute of Psychiatry & Behavioral Sciences for expert mental health care.",
-      image: female,
-      link: "/blog/best-female-psychiatrist-in-patna",
-      tags: ["Best Female Psychiatrist in Patna", "Dr Archana Singh", "Patna", "Mental Health"],
-    },
+
   ];
 
   const faqs = [
@@ -110,7 +123,7 @@ export default function Homepage() {
     <div className="w-full bg-white text-white flex flex-col items-center overflow-hidden">
       <Navbar />
       <section className="w-full h-screen shadow-lg">
-        <MotionCarousel/>
+        <MotionCarousel />
       </section>
       <section className="w-full">
         <AboutUs />

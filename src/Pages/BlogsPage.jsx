@@ -33,6 +33,7 @@ import female from "../assets/Blogs/female.png";
 import bestImg from "../assets/best.png";
 import ocdimg from "../assets/Blogs/ocdimg.jpg";
 import depr from "../assets/depr.png";
+import examten from "../assets/examten.png";
 
 export default function BlogsPage() {
   const [activePage, setActivePage] = useState(1);
@@ -103,7 +104,26 @@ export default function BlogsPage() {
     ],
   };
 
-const blogs = [
+  const blogs = [
+
+    {
+      title: "Exam Cancellations, Paper Leaks & Rising Competition: Why Students Are Feeling Mentally Exhausted Today",
+      description: "Competitive exams are becoming more stressful due to paper leaks, cancellations, delays, and rising competition. Learn how exam uncertainty affects students’ mental health, confidence, anxiety, and emotional well-being.",
+      image: examten,
+      link: "/blog/exam-cancellations-paper-leaks-student-mental-health",
+      tags: [
+        "Student Mental Health",
+        "Exam Stress",
+        "Competitive Exams",
+        "Anxiety",
+        "Burnout",
+        "Paper Leak",
+        "Student Depression",
+        "Academic Pressure",
+        "Mental Exhaustion",
+        "Counseling"
+      ]
+    },
     {
       title: "Depression is NOT just 'low mood' – Here’s what it actually feels like",
       description: "What does clinical depression really feel like? Beyond sadness – the physical heaviness, mental fog, and numbness. Learn the truth and how to get help.",
@@ -136,11 +156,11 @@ const blogs = [
     },
 
     {
-      title : "Obsessive Compulsive Disorder (OCD): Symptoms, Causes, and Effective Treatment in Patna",
-      description : "Learn about OCD symptoms, causes, and professional treatment options in Patna, including guidance from Dr. Archana Singh at Manah Institute.",
+      title: "Obsessive Compulsive Disorder (OCD): Symptoms, Causes, and Effective Treatment in Patna",
+      description: "Learn about OCD symptoms, causes, and professional treatment options in Patna, including guidance from Dr. Archana Singh at Manah Institute.",
       image: ocdimg,
       link: "/blog/ocd-symptoms-causes-treatment-patna",
-      tags : ["OCD", "mental health", "treatment", "Patna"],
+      tags: ["OCD", "mental health", "treatment", "Patna"],
     },
 
 
@@ -609,9 +629,8 @@ const blogs = [
 
           {/* Enhanced Search Bar */}
           <div
-            className={`w-full max-w-md transition-all duration-300 ${
-              isSearchFocused ? "scale-105" : ""
-            }`}
+            className={`w-full max-w-md transition-all duration-300 ${isSearchFocused ? "scale-105" : ""
+              }`}
           >
             <div className="relative">
               <input
@@ -667,11 +686,10 @@ const blogs = [
       <div className="container mx-auto mt-8 px-4">
         <div className="flex justify-center space-x-4 mb-8">
           <button
-            className={`px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 ${
-              displayMode === "all"
+            className={`px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 ${displayMode === "all"
                 ? "bg-[var(--color-button-primary)] text-white shadow-lg transform scale-105"
                 : "bg-gray-200 text-gray-800 hover:bg-gray-300"
-            }`}
+              }`}
             onClick={() => handleDisplayModeChange("all")}
           >
             <span className="flex items-center">
@@ -693,11 +711,10 @@ const blogs = [
             </span>
           </button>
           <button
-            className={`px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 ${
-              displayMode === "categories"
+            className={`px-6 py-3 rounded-full text-sm font-medium transition-all duration-300 ${displayMode === "categories"
                 ? "bg-[var(--color-button-primary)] text-white shadow-lg transform scale-105"
                 : "bg-gray-200 text-gray-800 hover:bg-gray-300"
-            }`}
+              }`}
             onClick={() => handleDisplayModeChange("categories")}
           >
             <span className="flex items-center">
@@ -727,11 +744,10 @@ const blogs = [
           <div className="container mx-auto px-4 mb-8">
             <div className="grid grid-cols-2 md:grid-cols-3 lg:flex lg:justify-center gap-2 lg:gap-4">
               <button
-                className={`px-4 py-3 rounded-lg text-sm font-medium transition-all duration-200 ${
-                  activeCategory === "all"
+                className={`px-4 py-3 rounded-lg text-sm font-medium transition-all duration-200 ${activeCategory === "all"
                     ? "bg-[var(--color-button-primary)] text-white shadow-md"
                     : "bg-gray-100 text-gray-800 hover:bg-gray-200"
-                }`}
+                  }`}
                 onClick={() => handleCategoryChange("all")}
               >
                 <span className="flex items-center justify-center">
@@ -742,11 +758,10 @@ const blogs = [
               {mainCategories.map((category) => (
                 <button
                   key={category}
-                  className={`px-4 py-3 rounded-lg text-sm font-medium transition-all duration-200 ${
-                    activeCategory === category
+                  className={`px-4 py-3 rounded-lg text-sm font-medium transition-all duration-200 ${activeCategory === category
                       ? "bg-[var(--color-button-primary)] text-white shadow-md"
                       : "bg-gray-100 text-gray-800 hover:bg-gray-200"
-                  }`}
+                    }`}
                   onClick={() => handleCategoryChange(category)}
                 >
                   <span className="flex items-center justify-center">
@@ -777,9 +792,8 @@ const blogs = [
               </svg>
               {filteredBlogs.length === 0
                 ? "No blogs found"
-                : `Found ${filteredBlogs.length} blog${
-                    filteredBlogs.length !== 1 ? "s" : ""
-                  }`}
+                : `Found ${filteredBlogs.length} blog${filteredBlogs.length !== 1 ? "s" : ""
+                }`}
             </div>
           </div>
 
@@ -828,11 +842,10 @@ const blogs = [
               <button
                 onClick={() => handlePageChange(Math.max(1, activePage - 1))}
                 disabled={activePage === 1}
-                className={`px-4 py-2 rounded-md flex items-center ${
-                  activePage === 1
+                className={`px-4 py-2 rounded-md flex items-center ${activePage === 1
                     ? "bg-gray-200 text-gray-400 cursor-not-allowed"
                     : "bg-gray-200 text-gray-700 hover:bg-gray-300"
-                }`}
+                  }`}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -861,11 +874,10 @@ const blogs = [
                   return (
                     <button
                       key={pageNumber}
-                      className={`w-10 h-10 rounded-full font-medium transition-all duration-200 ${
-                        activePage === pageNumber
+                      className={`w-10 h-10 rounded-full font-medium transition-all duration-200 ${activePage === pageNumber
                           ? "bg-[var(--color-button-primary)] text-white shadow-md transform scale-110"
                           : "bg-gray-200 text-gray-700 hover:bg-gray-300"
-                      }`}
+                        }`}
                       onClick={() => handlePageChange(pageNumber)}
                     >
                       {pageNumber}
@@ -889,11 +901,10 @@ const blogs = [
                   handlePageChange(Math.min(totalPages, activePage + 1))
                 }
                 disabled={activePage === totalPages}
-                className={`px-4 py-2 rounded-md flex items-center ${
-                  activePage === totalPages
+                className={`px-4 py-2 rounded-md flex items-center ${activePage === totalPages
                     ? "bg-gray-200 text-gray-400 cursor-not-allowed"
                     : "bg-gray-200 text-gray-700 hover:bg-gray-300"
-                }`}
+                  }`}
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

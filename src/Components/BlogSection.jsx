@@ -20,6 +20,7 @@ const BlogSection = ({ blogs, isHomePage }) => {
             />
           </>
         )}
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {blogs.map((blog, index) => (
             <div
@@ -31,6 +32,7 @@ const BlogSection = ({ blogs, isHomePage }) => {
                 alt={blog.title}
                 className="w-full h-52 object-cover"
               />
+
               <div className="p-4 flex flex-col flex-grow">
                 <h3 className="text-[var(--color-heading)] text-xl font-semibold mb-2">
                   {blog.title}
@@ -38,12 +40,17 @@ const BlogSection = ({ blogs, isHomePage }) => {
                 <p className="text-[var(--color-text-secondary)] text-sm mb-4">
                   {blog.description}
                 </p>
-                <Link
-                  to={blog.link}
-                  className="text-[var(--color-button-primary)] flex items-center text-sm font-medium hover:underline mt-auto"
-                >
-                  Learn More <span className="ml-2">&rarr;</span>
-                </Link>
+
+                <div className="mt-auto pt-2">
+                  {/* Card me “Read more” / arrow: pure blog open */}
+                  <Link
+                    to={blog.link}
+                    className="text-[var(--color-button-primary)] flex items-center text-sm font-medium hover:underline"
+                  >
+                    <span className="mr-2">Read more</span>
+                    <span className="ml-auto">&rarr;</span>
+                  </Link>
+                </div>
               </div>
             </div>
           ))}
@@ -54,3 +61,4 @@ const BlogSection = ({ blogs, isHomePage }) => {
 };
 
 export default BlogSection;
+
